@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Lo que estamos haciendo aqui es adecuar el tamaño del icono HTML5 y además de agregarle un espaciado en la parte superior de la pagina (un margen) .*/
+.IconoHTML5{
+    padding: 5px;
+    font-size: 40px;
+}
+
+/* Queremos que las letras esten en columna (por eso el display block), que se separen 5px de la parte superior de la pantalla (como el icono) y que su tamaño sea de 15px*/ 
+.Letras{
+    display:block;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* La disposicion del header debe ser en fila*/ 
+.post-header{
+    display:flex;
+}
+
+/* Los tres puntos similares a una hamburguesa tienen una similar separacion de la parte de arriba de la pagina 5px y se le agrega un espacio a su contenedor que lo separa y lleva a la zona derecha de la pagina. */ 
+.TresPuntos{
+    padding: 5px;
+    padding-left: 85%;
+    font-size: 30px;
+}
+
+/* La imagen debe ser cuadrada y estar contenida en toda la pagina (por lo menos ancho) */
+.post-img{
+    width: 100%;
+}
+
+.post-icons{
+    margin-right: 10px;
+    margin-top: 8px;
+    font-size: 45px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BookMark{
+    margin-left: 75%;
+}
+
+.MeGusta{
+    margin-left: 10px;
+}

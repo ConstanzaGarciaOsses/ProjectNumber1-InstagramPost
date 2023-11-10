@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Este corresponde al nombre que tendrá mi primer proyecto -->
+    <title> Instagram Post </title>
+    <!-- Este link va relacionado a los font awesome. Para obtener los iconos que se ocuparan en el presente proyecto -->
+    <script src="https://kit.fontawesome.com/f3a7950588.js" crossorigin="anonymous"></script>
+    <!-- El siguiente link, corresponde al enlace que se creará para trabajar sobre un archivo CSS (se podría trabajar sobre el mismo HTML con style, pero es mas ordenado con un archivo aparte) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<!-- Y cerramos el head para comenzar a trabajar sobre el body ;)-->
+
+<body>
+
+    <!-- Primero creamos un header para separar lo que corresponde a la parte de arriba de la pagina. Aquí ira lo que son los iconos de HTML, el autor de la imagen y la hamburguesa (los tres puntitos)-->
+
+    <header>
+        <!-- El div que contiene los tres iconos, según las instrucciones del proyecto debe tener una class de post-header. -->
+
+        <div class="post-header">
+
+            <!-- Este es el icono de HTML 5-->
+            <i class="fa-brands fa-html5 IconoHTML5"></i>
+
+            <div class="Letras"> 
+                <p> <strong> HTML5 </strong></p>
+                <p> Rigoberto </p>
+            </div>
+            <!-- El icono de los tres puntos -->
+            <i class="fa-solid fa-ellipsis-vertical TresPuntos"></i>
+
+        </div>
+
+    </header>
+
+    <!-- Una vez terminado con el header, sigue la parte de la fotografia, la cual la pondremos en el main (pensando que es la parte central de la pagina en conjunto con los iconos. )-->
+
+    <main> 
+        <!-- Imagen sacada de la pagina -->
+        <img class="post-img" src="assets/img/Paisaje.png" alt="Fallos Tecnicos">
+
+        <!-- Ahora vienen los iconos que estan debajo de la imagen -->
+        <div class="post-icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-bookmark BookMark"></i>
+        </div>
+
+        <!-- Finalmente viene dos parrafos, el primero son los "Me gusta" y el segundo es una historia lorem ipsum -->
+
+        <br> <!-- Espaciado grande entre los iconos y los "me gusta" -->
+
+        <p class="MeGusta">
+            Liked by <strong> 4GeeksAcademy, html5, Web,  </strong> and <strong> 100,000 others </strong>
+        </p>
+
+        <br> <!-- Espaciado grande entre los "me gusta" y el parrafo que sigue de lorem -->
+
+        <!-- Parrafo grande que va a tener el mismo formato que el de arribam por eso ocupan la misma clase. -->
+        <p class="MeGusta"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eum qui repellat cumque sapiente officia modi perferendis saepe blanditiis minus ducimus suscipit earum, distinctio necessitatibus voluptate repellendus sed expedita voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis unde repellat libero, tempore reiciendis a vitae, recusandae ex quo similique tenetur ipsam adipisci consequuntur! Minus doloremque delectus quasi animi. </p>
+
+    </main>
+
+    <br>
+
+</body>
+</html>
